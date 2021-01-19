@@ -1,14 +1,24 @@
 {
-    "name": "ali/aes-helper",
-    "description": "AES encryption/decryption helper",
-    "type": "library",
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "Ali Ibrahim",
-            "email": "aliibra395@gmail.com"
-        }
-    ],
-    "minimum-stability": "dev",
-    "require": {}
+  "name": "ai/aes-helper",
+  "description": "AES encryption/decryption helper",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Ali Ibrahim",
+      "email": "aliibra395@gmail.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "autoload": {
+    "psr-4": {
+      "Ai\\AESHelper\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Ai\\AESHelper\\Tests\\": "tests"
+    }
+  },
+  "require": {}
 }
