@@ -1,0 +1,14 @@
+{
+    "name": "ali/aes-helper",
+    "description": "AES encryption/decryption helper",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ali Ibrahim",
+            "email": "aliibra395@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
